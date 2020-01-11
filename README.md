@@ -46,3 +46,22 @@ c. A parrot living near the rooster says: “Cock-a-doodle-doo”
 d. How do you keep the parrot maintainable? What if we need another parrot
 lives near a Duck? Or near a phone that rings frequently?
 Implemented Parrot which uses delegation(also Composition) with the method - "livingWith".One has to pass Instance of the Animal that the Parrot is living to get the desire behaviour (singing).Even if the parrot is living with Ducks, it will work.
+
+-------------------------------
+Assignment B. Model fish as well as other swimming animals
+In addition to the birds, can you model a fish?
+a. Fishes don’t sing
+b. Fishes don’t walk
+c. Fishes can swim
+Can you specialize the fish as a Shark and as a Clownfish?
+a. Sharks are large and grey
+b. Clownfish are small and colourful (orange)
+c. Clownfish make jokes
+d. Sharks eat other fish
+
+created a Fish interface. Created classes Shark and Clownfish which implement
+Fish Inteface.
+Dolphins are not exactly fish, yet, they are good swimmers
+a. Can you model a dolphin that swims without inheriting from a fish class?
+b. How do you avoid duplicating code or introducing unneeded overhead?
+Using Composition(over inheritence) solves the problem .With this we can also avoid duplicating the code
