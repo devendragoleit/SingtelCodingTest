@@ -23,8 +23,7 @@ public class Bird implements Animal {
 
 		@Override
 		public boolean swim() {
-			// TODO Auto-generated method stub
+			System.out.println("I cannot swim");
 			return false;
 		}
-	
 }

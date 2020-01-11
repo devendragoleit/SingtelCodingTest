@@ -6,9 +6,21 @@ public class Duck extends Bird{
 		return true;
 		}
 
-	  public boolean sing() {
+	  public boolean sing() { 
 
 		System.out.println("Quack, quack");
 		return true;
 	}
+	  @Override
+		public boolean swim() {
+			System.out.println("I can swim");
+			return true;
+		}
+	  @Override
+		public boolean walk() {
+			
+				System.out.println("I am walking");
+			return true;
+			
+		}
 }

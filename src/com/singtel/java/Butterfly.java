@@ -2,6 +2,7 @@
 
 public class Butterfly implements Animal{
 
+
 	boolean isCaterpiller= false;
 	
 
@@ -50,7 +51,7 @@ public class Butterfly implements Animal{
 
 	@Override
 	public boolean swim() {
-		// TODO Auto-generated method stub
+		System.out.println("I cannot swim");
 		return false;
 	}
 }

@@ -2,7 +2,9 @@ package com.singtel.java;
 
 public class Solution {
 
-	public static void main(String[] args) { 
+
+
+	public static void main(String[] args) {
 		System.out.println("----------------DUCK----------------");
 		Animal myDuck =  new Duck();
 		myDuck.walk();
@@ -84,5 +86,38 @@ public class Solution {
 	   myCaterpillar.fly();
 	   myCaterpillar.sing();
 	   myCaterpillar.walk();
+	   System.out.println("----------------Animal Count----------------");
+	   Animal[] animals = new Animal[]{
+			   new Bird(),
+			   new Duck(),
+			   new Chicken(),
+			   new Rooster(),
+			   new Parrot(),
+			   new Shark(),
+			   new Clownfish(),
+			   new Dog(),
+			   new Butterfly(),
+			   new Cat()
+			   };
+	   int countFlying = 0 ;
+	   int countWalk = 0 ;
+	   int countSing = 0 ;
+	   int countSwim = 0 ;
+	   for (Animal animal : animals) {
+		   System.out.println(animal.getClass().getName() + "---count start--------------------");
+		   if(animal.fly())
+			   countFlying++;
+		    if(animal.walk())
+			   countWalk++;
+		    if(animal.sing())
+			   countSing++;
+		    if(animal.swim())
+			   countSwim++;
+		    System.out.println("------------------------count end---------------------");
+	}
+	   System.out.println("Number of Animals that can fly: " + countFlying);
+	   System.out.println("Number of Animals that can walk: " + countWalk);
+	   System.out.println("Number of Animals that can sing: " + countSing);
+	   System.out.println("Number of Animals that can swim: " + countSwim);
 	}
 }
