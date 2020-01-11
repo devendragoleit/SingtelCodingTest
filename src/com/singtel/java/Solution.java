@@ -21,6 +21,29 @@ public class Solution {
 		myRoosterDel.fly();
 		myRoosterDel.sing();
 		
+		Parrot myParrotwithDogs =  new Parrot();
+		myParrotwithDogs.livingWith(new Dog());
+		myParrotwithDogs.walk();
+		myParrotwithDogs.fly();
+		myParrotwithDogs.sing();
+		
+		Parrot myParrotwithCats =  new Parrot();
+		myParrotwithCats.livingWith(new Cat());
+		myParrotwithCats.walk();
+		myParrotwithCats.fly();
+		myParrotwithCats.sing();
+		
+		Parrot myParrotWithRoosters =  new Parrot();
+		myParrotWithRoosters.livingWith(new Rooster());
+		myParrotWithRoosters.walk();
+		myParrotWithRoosters.fly();
+		myParrotWithRoosters.sing();
+		
+		Parrot myParrotWithDucks =  new Parrot();
+		myParrotWithDucks.livingWith(new Duck());
+		myParrotWithDucks.walk();
+		myParrotWithDucks.fly();
+		myParrotWithDucks.sing();
 	}
 
 }
