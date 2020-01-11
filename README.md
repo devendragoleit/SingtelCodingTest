@@ -105,3 +105,36 @@ c. how many of these animals can sing?
 d. how many of these animals can swim?
 
 Added code in  "solution.java"" for counting the number of anmals that can fly,walk,sing and swim for all the animals that were implemented.
+
+-----------------------------------------------
+Assignment BONUS
+Can you add a second language  Use the rooster as a PoC for demonstrating this. For example, this is how the Rooster sounds differently depending on language. Please add the rooster sound in your native tongue.
+• Danish: kykyliky
+• Dutch: kukeleku
+• Finnish: kukko kiekuu
+• French: cocorico
+• German: kikeriki
+• Greek: kikiriki
+• Hebrew: coo-koo-ri-koo
+• Hungarian: kukuriku
+• Italian: chicchirichi
+• Japanese: ko-ke-kok-ko-o
+• Portuguese: cucurucu
+• Russian: kukareku
+• Swedish: kuckeliku
+• Turkish: kuk-kurri-kuuu
+• Urdu: kuklooku
+
+Implemented in ROOSTER Class.Please run Solution.java to see the output.
+Can you design a RESTful API for querying these animals?
+Designing RESTFUL WEBSERVICE :
+
+First, a REST resource to GET a list of Animals:
+api/animals
+Next, a REST resource to GET details of Animal with name (Example:Rooster):
+api/animals/rooster
+
+Representations :
+
+A JSON respresentation of a response—GET animal from "name":
+{"animal":{"type":"bird","name":"rooster","swim":"I cannot swim","walk":"I am walking","sing":"Cluck, cluck","fly":"I cannot fly"}}
