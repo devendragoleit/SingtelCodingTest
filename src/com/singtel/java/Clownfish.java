@@ -2,30 +2,34 @@ package com.singtel.java;
  
 public class Clownfish implements Fish{
 
-	@Override
-	public void fly() {
+	@Override 
+	public boolean fly() {
 		
 			System.out.println("I cannot fly");
+			return false;
 			
 		
 		
 	}
 
 	@Override
-	public void sing() {
+	public boolean sing() {
 		System.out.println("I cannot sing");
+		return false;
 		
 	}
 
 	@Override
-	public void walk() {
+	public boolean walk() {
 		System.out.println("I cannot walk");
+		return false;
 		
 	}
 
 	@Override
-	public void swim() {
+	public boolean swim() {
 		System.out.println("I can swim");
+		return true;
 		
 	}
 
@@ -41,14 +45,16 @@ public class Clownfish implements Fish{
 	}
 
 	@Override
-	public void eat() {
+	public boolean eat() {
 		System.out.println("I dont eat other fish");
+		return false;
 		
 	}
 
 	@Override
-	public void makeJokes() {
+	public boolean makeJokes() {
 		System.out.println("I make Jokes");
+		return true;
 		
 	}
 

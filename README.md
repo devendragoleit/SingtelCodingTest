@@ -65,3 +65,15 @@ Dolphins are not exactly fish, yet, they are good swimmers
 a. Can you model a dolphin that swims without inheriting from a fish class?
 b. How do you avoid duplicating code or introducing unneeded overhead?
 Using Composition(over inheritence) solves the problem .With this we can also avoid duplicating the code
+------------------------------
+Assignment D. Model animals that change their behaviour over time
+Can you model a butterfly?
+a. A butterfly can fly
+b. A butterfly does not make a sound
+
+Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+a. A caterpillar cannot fly
+b. A caterpillar can walk (crawl)
+
+Created butterfly class that implements animal that can fly and does not make sound.Set the behaviour as property - "isCaterpiller".Just set the property to true or false -  to account for the metamorphosis from caterpillar to
+butterfly.

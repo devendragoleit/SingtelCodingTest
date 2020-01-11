@@ -2,9 +2,9 @@ package com.singtel.java;
 
 public class Solution {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		System.out.println("----------------DUCK----------------");
-		Animal myDuck =  new Duck(); 
+		Animal myDuck =  new Duck();
 		myDuck.walk();
 		myDuck.fly();
 		myDuck.sing();
@@ -72,6 +72,17 @@ public class Solution {
 	   dolphin.sing();
 	   dolphin.swim();
 	   dolphin.walk();
-	   
+	   System.out.println("----------------BUTTERFLY----------------");
+	   Butterfly myButterFly =  new Butterfly();
+	   myButterFly.setCaterpiller(false);
+	   myButterFly.fly();
+	   myButterFly.sing();
+	   myButterFly.walk();
+	   System.out.println("----------------CATERPILLAR----------------");
+	   Butterfly myCaterpillar =  new Butterfly();
+	   myCaterpillar.setCaterpiller(true);
+	   myCaterpillar.fly();
+	   myCaterpillar.sing();
+	   myCaterpillar.walk();
 	}
 }
