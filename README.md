@@ -19,3 +19,12 @@ Run the Test Class - com.singtel.test.BirdTest.java
 
 Built With
 Eclipse IDE - IDE for JAVA
+---------------------------------------
+Assignment A basic- 2
+Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you implement them to make their own special sound?
+
+a. A duck says: “Quack, quack”
+b. A duck can swim
+c. A chicken says: “Cluck, cluck”
+d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
+YES .Added Duck and Chicken classes - which extend Bird class 
