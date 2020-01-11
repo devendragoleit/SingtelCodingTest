@@ -28,3 +28,11 @@ b. A duck can swim
 c. A chicken says: “Cluck, cluck”
 d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
 YES .Added Duck and Chicken classes - which extend Bird class 
+---------------------------------
+Assignment A  basic- 3
+Now how would you model a rooster?
+a. A rooster says: “Cock-a-doodle-doo”
+b. How is the rooster related to the chicken?
+c. Can you think of other ways to model a rooster without using inheritance?
+ Chicken is genderless, hen is the female, rooster is male.So rooster and hen are chickens.Created Rooster.java class extending Chicken.java class.
+Another way to model a rooster without using inheritence is to use delegation.In Delegation we use an object of a

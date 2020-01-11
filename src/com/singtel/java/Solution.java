@@ -11,6 +11,16 @@ public class Solution {
 		myChicken.walk();
 		myChicken.fly();
 		myChicken.sing();
+		Animal myRooster =  new Rooster();
+		myRooster.walk();
+		myRooster.fly();
+		myRooster.sing();
+		
+		RoosterDelegation myRoosterDel =  new RoosterDelegation();
+		myRoosterDel.walk();
+		myRoosterDel.fly();
+		myRoosterDel.sing();
+		
 	}
 
 }
